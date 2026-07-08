@@ -15,6 +15,7 @@
     "/api/history": {},
     "/api/housekeeping": {},
     "/api/metrics": {},
+    "/api/preview-pin": {},
     "/api/projects": {},
     "/api/projects/clone": {},
     "/api/projects/import": {},

@@ -162,6 +162,12 @@
       "namedRegex": "^/api/metrics(?:/)?$"
     },
     {
+      "page": "/api/preview-pin",
+      "regex": "^/api/preview\\-pin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/preview\\-pin(?:/)?$"
+    },
+    {
       "page": "/api/projects",
       "regex": "^/api/projects(?:/)?$",
       "routeKeys": {},
