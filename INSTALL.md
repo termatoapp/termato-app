@@ -23,7 +23,7 @@ is set up for you and kept inside `~/.termato`, never touching your system.
 ## Install
 
 ```bash
-git clone https://github.com/AlienFireman/termato-app.git ~/.termato
+git clone https://github.com/termatoapp/termato-app.git ~/.termato
 bash ~/.termato/install.sh
 ```
 

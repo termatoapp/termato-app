@@ -168,6 +168,12 @@
       "namedRegex": "^/api/preview\\-pin(?:/)?$"
     },
     {
+      "page": "/api/preview-public",
+      "regex": "^/api/preview\\-public(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/preview\\-public(?:/)?$"
+    },
+    {
       "page": "/api/projects",
       "regex": "^/api/projects(?:/)?$",
       "routeKeys": {},

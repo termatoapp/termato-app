@@ -16,6 +16,7 @@
     "/api/housekeeping": {},
     "/api/metrics": {},
     "/api/preview-pin": {},
+    "/api/preview-public": {},
     "/api/projects": {},
     "/api/projects/clone": {},
     "/api/projects/import": {},

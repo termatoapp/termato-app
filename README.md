@@ -11,7 +11,7 @@ hand. Pair it with Claude Code for the **full power of AI coding in your pocket*
 use it with any CLI or AI tool you like.
 
 ```bash
-git clone https://github.com/AlienFireman/termato-app.git ~/.termato && bash ~/.termato/install.sh
+git clone https://github.com/termatoapp/termato-app.git ~/.termato && bash ~/.termato/install.sh
 ```
 
 <sub>Free · macOS &amp; Linux · **[termato.com](https://termato.com)**</sub>
@@ -131,7 +131,7 @@ secure remote access — and asks only two quick things: a **username** (the per
 subdomain you’ll open Termato at) and a **password** (your private login). Then you’re in.
 
 ```bash
-git clone https://github.com/AlienFireman/termato-app.git ~/.termato && bash ~/.termato/install.sh
+git clone https://github.com/termatoapp/termato-app.git ~/.termato && bash ~/.termato/install.sh
 ```
 
 Termato is **self-hosted** and self-contained: it bundles its own runtime, picks free
