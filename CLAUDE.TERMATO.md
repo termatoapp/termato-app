@@ -141,7 +141,7 @@ Actions:
 | `browser.reload` | — | Reload the browser pane. Always fetches **fresh** (each reload is a unique URL) — no stale/cached content. |
 | `browser.close` | — | Close the browser pane. |
 | `list.projects` | — | The configured projects. |
-| `project.create` | `name` | Create a brand-new empty project — the same as the sidebar's **New project** button: makes `~/<slug>` (slug derived from `name`), `git init`s it, writes `.claude/memory/` + a starter `CLAUDE.md`, commits, registers it in `projects.json`, and opens it in the sidebar live. Returns `{name, path}` (409 if it already exists). |
+| `project.create` | `name` | Create a brand-new empty project — the same as the sidebar's **New project** button: makes `~/<slug>` (slug derived from `name`; on another drive instead when the user's Settings → Storage overflow is on and the home drive is full — always use the returned `path`), `git init`s it, writes `.claude/memory/` + a starter `CLAUDE.md`, commits, registers it in `projects.json`, and opens it in the sidebar live. Returns `{name, path}` (409 if it already exists). |
 
 The wrapper auto-targets *your* session and *your* project, so you don't pass `chatId`/`projectPath`
 by hand. `GET /api/control` returns the action list.

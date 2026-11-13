@@ -54,6 +54,12 @@
       "namedRegex": "^/api/auth/preview(?:/)?$"
     },
     {
+      "page": "/api/board",
+      "regex": "^/api/board(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/board(?:/)?$"
+    },
+    {
       "page": "/api/chat",
       "regex": "^/api/chat(?:/)?$",
       "routeKeys": {},
@@ -202,6 +208,12 @@
       "regex": "^/api/projects/import(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/projects/import(?:/)?$"
+    },
+    {
+      "page": "/api/projects/location",
+      "regex": "^/api/projects/location(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/projects/location(?:/)?$"
     },
     {
       "page": "/api/rebuild",
